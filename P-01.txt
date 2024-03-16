@@ -1,0 +1,8 @@
+1.-
+Las comillas invertidas (`) se utilizan para crear template strings en JavaScript, también conocidos como "template literals". Algunas características importantes de los template strings son:
+Interpolación de variables: Los template strings permiten la interpolación de variables directamente dentro del string usando la sintaxis ${}. Esto significa que puedes incluir el valor de variables dentro del string sin tener que concatenar manualmente.
+Multilínea: Los template strings pueden abarcar varias líneas de texto sin necesidad de escapar caracteres especiales o usar concatenación.
+Expresiones de JavaScript: Dentro de los ${}, puedes incluir cualquier expresión de JavaScript válida, lo que proporciona una gran flexibilidad.
+En cuanto a la diferencia entre comillas simples (''), comillas dobles ("") y comillas invertidas (``):
+Comillas Simples ('') y Comillas Dobles (""): Estas se utilizan para crear strings en JavaScript y son básicamente intercambiables. La elección entre comillas simples y dobles generalmente depende de la preferencia del programador o de la necesidad de incluir comillas dentro del string.
+Comillas Invertidas (``): Además de permitir la interpolación de variables y multilínea, los template strings son más versátiles que las comillas simples y dobles en términos de funcionalidad. No necesitas preocuparte por escapar caracteres especiales como comillas simples o dobles, lo que hace que la escritura de código sea más limpia y legible, especialmente cuando necesitas trabajar con strings largos o complejos que incluyen variables y expresiones de JavaScript.
